@@ -6,12 +6,11 @@ See the deployed webiste [here](https://simon-rey.github.io/jekyll_example/).
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Install Jekyll
 
-Follow the official installation guide:  
-👉 [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)
+Follow the official installation guide: [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)
 
 Make sure you have **Ruby**, **Bundler**, and **Jekyll** installed.
 
@@ -26,7 +25,7 @@ Then visit [http://localhost:4000](http://localhost:4000) in your browser.
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 | Folder/File            | Purpose                                                                                                       |
 |------------------------|---------------------------------------------------------------------------------------------------------------|
@@ -38,7 +37,7 @@ Then visit [http://localhost:4000](http://localhost:4000) in your browser.
 
 ---
 
-## 📄 Example Features
+## Example Features
 
 - `team.md` shows how to render a page using external data from `_data/team_data.yml`.
 - Layouts make it easy to maintain consistent page design.
@@ -47,7 +46,7 @@ Then visit [http://localhost:4000](http://localhost:4000) in your browser.
 
 ---
 
-## 🚢 Deployment with GitHub Actions
+## Deployment with GitHub Actions
 
 This project is configured to deploy automatically using GitHub Actions.
 
@@ -55,10 +54,11 @@ This project is configured to deploy automatically using GitHub Actions.
 - No manual setup is required — just **push your changes**, and the site is rebuilt automatically.
 - Make sure GitHub Actions are enabled for your repository.
 - In the settings -> Page, for source choose 'GitHub Action'
+- If you want to deploy with a custom domain name, then the action needs to be updated (remove the --baseurl argument in the action)
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Layouts are defined in the `_layouts` folder.
 - Pages declare their layout in the YAML front matter: `layout: page`, `layout: default`, etc.
