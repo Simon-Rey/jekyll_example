@@ -1,4 +1,4 @@
-# 📘 Example Jekyll Project
+# Example Jekyll Project
 
 This is a simple starter project for building static websites using [Jekyll](https://jekyllrb.com/). It includes examples of layouts, pages, data usage, and GitHub Actions deployment.
 
