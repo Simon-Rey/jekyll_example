@@ -27,13 +27,13 @@ Then visit [http://localhost:4000](http://localhost:4000) in your browser.
 
 ## Project Structure
 
-| Folder/File            | Purpose                                                                                                       |
-|------------------------|---------------------------------------------------------------------------------------------------------------|
-| `_layouts/`            | Defines the structure for different types of pages (e.g., `page`, `post`, `home`). Each page uses a layout defined in its YAML front matter (`layout: page`). |
-| `*.md`                 | Markdown content pages. Pages are rendered using the assigned layout and can include [Liquid](https://shopify.github.io/liquid/) templating. |
-| `_data/`               | Stores reusable data in YAML/JSON/CSV files. You can reference this data in your pages or layouts using Liquid. |
-| `assets/`              | Contains static files like CSS, JavaScript, and images. These are copied over during site build.              |
-| `.github/workflows/`   | Contains GitHub Actions workflow for automated deployment.                                                   |
+| Folder/File            | Purpose                                                                                                                                                                                 |
+|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `_layouts/`            | Defines the structure for different types of pages (e.g., `page`, `post`, `home`). Each page uses a layout defined in its YAML front matter (`layout: page`).                           |
+| `*.md`                 | Markdown content pages. Pages are rendered using the assigned layout and can include [Liquid](https://shopify.github.io/liquid/) templating. Pages can also be described as HTML files. |
+| `_data/`               | Stores reusable data in YAML/JSON/CSV files. You can reference this data in your pages or layouts using Liquid.                                                                         |
+| `assets/`              | Contains static files like CSS, JavaScript, and images. These are copied over during site build.                                                                                        |
+| `.github/workflows/`   | Contains GitHub Actions workflow for automated deployment.                                                                                                                              |
 
 ---
 
