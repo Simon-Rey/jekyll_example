@@ -1,0 +1,17 @@
+- name: Alice Johnson
+  role: CEO & Founder
+  image: /assets/images/team/alice.jpg
+  bio: >
+    Alice brings 15+ years of experience in product development and strategic leadership. She loves clean code and cleaner coffee.
+
+- name: Ben Rodriguez
+  role: Lead Developer
+  image: /assets/images/team/ben.jpg
+  bio: >
+    Ben specializes in full-stack development, with a focus on performance and scalability. When not coding, he's hiking trails.
+
+- name: Clara Lee
+  role: UX Designer
+  image: /assets/images/team/clara.jpg
+  bio: >
+    Clara ensures everything looks beautiful and feels intuitive. She's a Figma wizard and a sushi connoisseur.

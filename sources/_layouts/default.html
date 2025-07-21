@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <meta name="description" content="Website by me.">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css' | relative_url }}"/>
+
+    {{ page.extra_html_head }}
+</head>
+<body>
+
+<header>
+    <div id="top-header">
+        <p>Header from my website!</p>
+    </div>
+</header>
+<nav id="menu-wrap">
+    <div class="menu-item"><a href="{{ '/' | relative_url  }}">About</a></div>
+    <div class="menu-item"><a href="{{ 'team' | relative_url  }}">Team</a></div>
+    <div class="menu-item"><a href="{{ 'how_to' | relative_url  }}">How To</a></div>
+</nav>
+
+<main {% if page.main_id %}id="{{ page.main_id }}"{% endif %}>
+    <div {% if page.content_wrap_id %}id="{{ page.content_wrap_id }}"{% endif %} class="main-content-wrap">
+        {% if page.main_h_title %}
+            <h1>{{ page.main_h_title }}</h1>
+        {% endif %}
+
+        {{ content }}
+    </div>
+</main>
+
+
+<footer>
+    <div id="footer-wrap">
+        <p>Footer from my website.</p>
+    </div>
+</footer>
+
+</body>
+</html>
