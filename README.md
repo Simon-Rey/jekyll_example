@@ -2,6 +2,8 @@
 
 This is a simple starter project for building static websites using [Jekyll](https://jekyllrb.com/). It includes examples of layouts, pages, data usage, and GitHub Actions deployment.
 
+See the deployed webiste [here](https://simon-rey.github.io/jekyll_example/).
+
 ---
 
 ## 🚀 Getting Started
@@ -52,6 +54,7 @@ This project is configured to deploy automatically using GitHub Actions.
 - See the workflow in `.github/workflows/build_jekyll.yml`
 - No manual setup is required — just **push your changes**, and the site is rebuilt automatically.
 - Make sure GitHub Actions are enabled for your repository.
+- In the settings -> Page, for source choose 'GitHub Action'
 
 ---
 

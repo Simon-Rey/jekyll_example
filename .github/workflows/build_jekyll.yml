@@ -41,7 +41,7 @@ jobs:
       - name: Build with Jekyll
         run: |
           cd sources
-          bundle exec jekyll build
+          bundle exec jekyll build --baseurl 'jekyll_example/'
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
